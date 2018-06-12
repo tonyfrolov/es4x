@@ -94,6 +94,8 @@ do
   # typedoc
   # this step assumes typedoc is installed globally
   mvn -f ./$i/pom.xml exec:exec@typedoc
+  # generate the manual for each component
+  mvn -f ./$i/pom.xml dependency:unpack-dependencies@unpack-docs
 #  # upload to registry
 #  mvn -f ./$i/pom.xml exec:exec@npm-publish
 done
