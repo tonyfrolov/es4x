@@ -5,3 +5,5 @@
 target
 *.iml
 .vscode
+sandbox
+docs/_site
