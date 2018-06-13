@@ -70,6 +70,14 @@
       <scope>provided</scope>
       <classifier>sources</classifier>
     </dependency>
+    <dependency>
+      <groupId>${maven.groupId}</groupId>
+      <artifactId>${project.artifactId}</artifactId>
+      <version>${project.version}</version>
+      <scope>provided</scope>
+      <classifier>docs</classifier>
+      <type>zip</type>
+    </dependency>
   </dependencies>
 
 </project>

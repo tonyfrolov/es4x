@@ -49,7 +49,7 @@
     </dependency>
     <dependency>
       <groupId>${maven.groupId}</groupId>
-      <artifactId>${project.artifactId}</artifactId>
+      <artifactId>vertx-lang-js</artifactId>
       <version>${project.version}</version>
       <scope>provided</scope>
       <classifier>docs</classifier>

@@ -89,6 +89,8 @@ modules=(
 
 for i in "${modules[@]}"
 do
+  # clean previous run
+  mvn -f ./$i/pom.xml clean
   # generate code
   mvn -f ./$i/pom.xml
   # typedoc

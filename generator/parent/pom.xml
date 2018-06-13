@@ -140,6 +140,7 @@
               <includeTypes>zip</includeTypes>
               <includeClassifiers>docs</includeClassifiers>
               <includes>**/*</includes>
+              <excludes>groovy/**/*,java/**/*,kotlin/**/*,ruby/**/*</excludes>
               <outputDirectory>${project.basedir}/../../../docs/manual/${npm-name}</outputDirectory>
             </configuration>
           </execution>
